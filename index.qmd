@@ -1,0 +1,93 @@
+---
+title: "Big Title"
+author: "Author name"
+institute: "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour <br/> Te Whare Wānanga o Waitaha | University of Canterbury"
+format:
+  revealjs:
+    theme: [custom.scss]
+    incremental: true
+    logo: images/NZILBB-small.svg
+    title-slide-attributes:
+      data-background-image: ../images/NZILBB-big.svg
+      data-background-position: 'top left'
+      data-background-size: 50%
+    embed-resources: false
+    include-in-header:
+      - text: |
+          <link rel="icon" type="image/png" sizes="32x32" href=".//images/fav.png" />
+bibliography: 
+  - grateful-refs.bib
+editor: 
+  markdown: 
+    wrap: 72
+execute: 
+  echo: true
+knitr:
+  opts_chunk: 
+    dev: "png"
+    dev.args: 
+      bg: "transparent"
+---
+
+```{r}
+#| echo: false
+library(tidyverse)
+library(here)
+```
+
+
+## Overview
+
+1. The
+2. Stuff
+3. I'll
+4. Talk
+5. About
+
+## How to use me
+
+- Most problems can be solved with the 
+  [Quarto documentation](https://quarto.org/docs/presentations/).
+- Some visual options are built into this template (in addition to those built in to Quarto). In the markdown use square
+brackets around text you want to style and the style name in curly brakets. The
+extra options are:
+
+## Size 
+
+- `[example text]{.big}`: [example text]{.big}
+- `[example text]{.real-big}`: [example text]{.real-big}
+    
+## Position
+
+- Horizontal centring
+- `[example text]{.centre}`
+
+::: fragment
+[example text]{.centre}
+:::
+
+## Colour
+
+- `[example text]{.blue}`: [example text]{.blue}
+- `[example text]{.red}`: [example text]{.red}
+
+## 'Backlight'
+
+- `backlight` produces a light shadow around text.
+- Useful for text on top of background images.
+- `[example text]{.backlight}`: [example text]{.backlight}
+- `[example text]{.inverse-backlight}`: [example text]{.inverse-backlight}
+
+# References
+
+```{r}
+#| echo: false
+grateful::nocite_references(
+  grateful::cite_packages(output = "citekeys", out.dir = here())
+)
+```
+
+
+::: refs
+
+:::
