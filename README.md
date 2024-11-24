@@ -14,3 +14,5 @@ bottom of the RStudio window.
 This will set up a new directory for your presentation. The file `index.qmd` is
 the one you should edit. You can rename it if you like, but 'index' is the best
 name if you want to host your slides online.
+
+More information on using this template is in the `index.qmd` file.

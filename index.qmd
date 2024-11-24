@@ -31,18 +31,13 @@ knitr:
 
 ```{r}
 #| echo: false
+# This is a place to load packages in the background (i.e., this block won't 
+# apear on the slides because `echo` is false.)
 library(tidyverse)
 library(here)
 ```
 
-
-## Overview
-
-1. The
-2. Stuff
-3. I'll
-4. Talk
-5. About
+# How to use me
 
 ## How to use me
 
@@ -53,6 +48,11 @@ brackets around text you want to style and the style name in curly brakets. The
 extra options are:
 
 ## Size 
+
+<!-- If you want to see what these look like, you should render the document. -->
+<!-- Click the 'render' button at the top of this pane (if using RStudio).
+<!-- If you can't render the document, make sure you have installed any packages-->
+<!-- mentioned in error messages -->
 
 - `[example text]{.big}`: [example text]{.big}
 - `[example text]{.real-big}`: [example text]{.real-big}
@@ -77,6 +77,17 @@ extra options are:
 - Useful for text on top of background images.
 - `[example text]{.backlight}`: [example text]{.backlight}
 - `[example text]{.inverse-backlight}`: [example text]{.inverse-backlight}
+
+## `grateful` and bibliographies
+
+- This template includes `grateful`, which adds any R packages you use to your 
+bibliography.
+- To add references, follow the Quarto documentation. The simple story:
+    - Add a `.bib` file to the directory containing your presentation with 
+    all the things you want to cite.
+    - Add the `.bib` file in the `bibliography` section of the frontmatter (i.e.
+    in the list of options at the start of the `.qmd` file).
+    - Include citations in markdown as normal, e.g. `[@bibentry]`
 
 # References
 
