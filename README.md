@@ -15,4 +15,10 @@ This will set up a new directory for your presentation. The file `index.qmd` is
 the one you should edit. You can rename it if you like, but 'index' is the best
 name if you want to host your slides online.
 
+Two title page logos are given, one with the Marsden fund logo and one without.
+See the comments in at the top of `index.qmd` for instructions on how to switch
+between the two logo options. You may need to modify the size of the logos 
+depending on the length of your title, subtitle, author details etc.
+
 More information on using this template is in the `index.qmd` file.
+

@@ -2,6 +2,7 @@
 title: "Big Title"
 # For author options see : 
 # https://quarto.org/docs/authoring/front-matter.html#authors-and-affiliations
+# NB: multiple authors can be added here.
 author:
   name: "Author name"
   affiliation: "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour <br/> Te Whare Wānanga o Waitaha | University of Canterbury"
@@ -13,9 +14,12 @@ format:
     template-partials:
       - title-slide.html
     title-slide-attributes:
-      data-background-image: images/NZILBB-big.svg
-      data-background-position: 'top left'
-      data-background-size: 50%
+      # If you have Marsden funding, change image name to `nzilbb-uc-marsden.svg`
+      data-background-image: images/nzilbb-uc.svg
+      # First number controls the horizontal position, second controls vertical.
+      data-background-position: '50% 5%'
+      # Controls size of image relative to width of the slide.
+      data-background-size: 70%
     embed-resources: false
     include-in-header:
       - text: |
