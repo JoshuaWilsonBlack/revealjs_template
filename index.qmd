@@ -1,14 +1,19 @@
 ---
 title: "Big Title"
-author: "Author name"
-institute: "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour <br/> Te Whare Wānanga o Waitaha | University of Canterbury"
+# For author options see : 
+# https://quarto.org/docs/authoring/front-matter.html#authors-and-affiliations
+author:
+  name: "Author name"
+  affiliation: "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour <br/> Te Whare Wānanga o Waitaha | University of Canterbury"
 format:
   revealjs:
     theme: [custom.scss]
     incremental: true
     logo: images/NZILBB-small.svg
+    template-partials:
+      - title-slide.html
     title-slide-attributes:
-      data-background-image: ../images/NZILBB-big.svg
+      data-background-image: images/NZILBB-big.svg
       data-background-position: 'top left'
       data-background-size: 50%
     embed-resources: false
@@ -78,16 +83,16 @@ extra options are:
 - `[example text]{.backlight}`: [example text]{.backlight}
 - `[example text]{.inverse-backlight}`: [example text]{.inverse-backlight}
 
-## `grateful` and bibliographies
+## `grateful` and bibliographies {.smaller}
 
 - This template includes `grateful`, which adds any R packages you use to your 
 bibliography.
-- To add references, follow the Quarto documentation. The simple story:
-    - Add a `.bib` file to the directory containing your presentation with 
+- To add references, follow the Quarto documentation. Basics:
+    1. Add a `.bib` file to the directory containing your presentation with 
     all the things you want to cite.
-    - Add the `.bib` file in the `bibliography` section of the frontmatter (i.e.
+    2. Add the `.bib` file in the `bibliography` section of the frontmatter (i.e.
     in the list of options at the start of the `.qmd` file).
-    - Include citations in markdown as normal, e.g. `[@bibentry]`
+    3. Include citations in markdown as normal, e.g. `[@bibentry]`
 
 # References
 

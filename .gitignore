@@ -6,5 +6,5 @@
 *.bib
 .DS_Store
 *.Rproj
-*.html
+index.html
 
