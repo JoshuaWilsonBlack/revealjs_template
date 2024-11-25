@@ -4,8 +4,14 @@ title: "Big Title"
 # https://quarto.org/docs/authoring/front-matter.html#authors-and-affiliations
 # NB: multiple authors can be added here.
 author:
-  name: "Author name"
-  affiliation: "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour <br/> Te Whare Wānanga o Waitaha | University of Canterbury"
+  - name:
+      given: Joshua
+      family: Wilson Black
+    email: joshua.black@canterbury.ac.nz
+    orcid: 0000-0002-8272-5763
+    affiliation: 
+      - "Te Kāhui Roro Reo | New Zealand Institute of Language, Brain and Behaviour"
+      - "Te Whare Wānanga o Waitaha | University of Canterbury"
 format:
   revealjs:
     theme: [custom.scss]
