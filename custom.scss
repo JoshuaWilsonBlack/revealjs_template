@@ -2,21 +2,23 @@
 
 $presentation-h1-font-size: 2em !default;
 
-$theme-dark: #010910;
-$theme-light: #ededed;
-$theme-blue: #38567b;
-$theme-red: #760100;
+$theme-dark: #191818;
+$theme-light: #F5F5F5;
+$theme-blue: #98c0c5;
+$theme-red: #ba5c3d;
+$theme-green: #585C1F;
 
 $body-bg: $theme-light;
 $body-color: $theme-dark;
-$link-color: $theme-blue;
+$link-color: $theme-green;
 
 $code-block-font-size: 0.7em;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&display=swap');
+@import url(https://fonts.bunny.net/css?family=merriweather-sans:700);
 
 $font-family-sans-serif: 'Noto Sans', sans-serif;
-$presentation-heading-font: 'Montserrat', serif;
+$presentation-heading-font: 'Merriweather Sans', sans-serif;
 
 /*-- scss:rules --*/
 
@@ -59,6 +61,11 @@ $presentation-heading-font: 'Montserrat', serif;
 
 .red {
   color: $theme-red;
+  font-weight: bold;
+}
+
+.green {
+  color: $theme-green;
   font-weight: bold;
 }
 
