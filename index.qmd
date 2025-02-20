@@ -79,6 +79,7 @@ extra options are:
 
 - `[example text]{.blue}`: [example text]{.blue}
 - `[example text]{.red}`: [example text]{.red}
+- `[example text]{.green}`: [example text]{.green}
 
 ## 'Backlight'
 
