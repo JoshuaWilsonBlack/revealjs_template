@@ -77,3 +77,15 @@ $presentation-heading-font: 'Merriweather Sans', sans-serif;
   color: $theme-light;
   text-shadow: -2px 0 $theme-dark,2px 0 $theme-dark,0 -2px $theme-dark,0 2px $theme-dark;
 }
+
+.box-light {
+  padding: 15px; 
+  border-radius: 20px; 
+  background: rgba($theme-light, 0.7}
+}
+
+.box-dark {
+  padding: 15px; 
+  border-radius: 20px; 
+  background: rgba($theme-dark, 0.7}
+}
